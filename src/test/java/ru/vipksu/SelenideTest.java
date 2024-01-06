@@ -17,7 +17,7 @@ public class SelenideTest {
 
         open("https://github.com");
         $(".search-input").click();
-        $("#query-builder-test").sendKeys("kseniamitrofanova/");
+        $("#query-builder-test").sendKeys("kseniamitrofanova/MyProject");
         $(".QueryBuilder-InputWrapper").submit();
 
         $(linkText("kseniamitrofanova/MyProject")).click();
